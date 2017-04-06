@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:background="@color/logo_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.movie_app.splash_activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/b1"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/movie_app_logo"
+        android:scaleType="centerInside"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+</RelativeLayout>
