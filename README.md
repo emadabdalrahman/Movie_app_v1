@@ -9,7 +9,6 @@ App helps you to find top movies in box office, top rated, popular the data abou
 ## Screen Shot
 
 ![](https://github.com/emadabdalrahman/Movie_app_v1/blob/master/ScreenShots/thumbnail_original.jpg?raw=true)
-![](https://drive.google.com/open?id=1G-KEAD6IrDP0a2NeC5Z2tLvO9skpc5ln)
 
 ## Third Party Libraries
 
