@@ -28,6 +28,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+import static com.example.android.movie_app.MainActivity.API_KEY;
+
 /**
  * Created by emad on 11/16/2016.
  */
@@ -89,9 +91,9 @@ public class movie_details_fragment extends Fragment {
         movie_details_invisible();
         movie_id = getArguments().getString("movie_id");
         state = getArguments().getString("state");
-        final String movie_details_url = "https://api.themoviedb.org/3/movie/" + movie_id + "?api_key=c8e1ac8910c753600986ed6d71f88e29&language=en-US";
-        final String movie_review_url = "https://api.themoviedb.org/3/movie/" + movie_id + "/reviews?api_key=c8e1ac8910c753600986ed6d71f88e29&language=en-US";
-        final String movie_videos_url = "https://api.themoviedb.org/3/movie/" + movie_id + "/videos?api_key=c8e1ac8910c753600986ed6d71f88e29&language=en-US";
+        final String movie_details_url = "https://api.themoviedb.org/3/movie/" + movie_id + "?api_key="+API_KEY+"&language=en-US";
+        final String movie_review_url = "https://api.themoviedb.org/3/movie/" + movie_id + "/reviews?api_key="+API_KEY+"&language=en-US";
+        final String movie_videos_url = "https://api.themoviedb.org/3/movie/" + movie_id + "/videos?api_key="+API_KEY+"&language=en-US";
 
 
         makeAsFavorite_listener();

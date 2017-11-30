@@ -26,6 +26,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 import static android.content.Context.MODE_PRIVATE;
+import static com.example.android.movie_app.MainActivity.API_KEY;
 
 
 public class main_fragment extends Fragment {
@@ -35,8 +36,9 @@ public class main_fragment extends Fragment {
     public GridView gridView;
     public String request;
     public FragmentActivity mContext;
-    public String popular_url = "https://api.themoviedb.org/3/movie/popular?api_key=c8e1ac8910c753600986ed6d71f88e29&language=en-US&page=1";
-    public String top_rated_url = "https://api.themoviedb.org/3/movie/top_rated?page=1&language=en-US&api_key=c8e1ac8910c753600986ed6d71f88e29";
+
+    public String popular_url = "https://api.themoviedb.org/3/movie/popular?api_key="+API_KEY+"&language=en-US&page=1";
+    public String top_rated_url = "https://api.themoviedb.org/3/movie/top_rated?page=1&language=en-US&api_key="+API_KEY;
     public SharedPreferences setting;
 
     static interface onclick_listener {

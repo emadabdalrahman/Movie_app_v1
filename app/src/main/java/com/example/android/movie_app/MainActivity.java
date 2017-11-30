@@ -21,11 +21,11 @@ import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity implements main_fragment.onclick_listener {
-
+    public static final String API_KEY = "";
     public String request, state;
     public JSONArray jsonArray;
-    public String popular_url = "https://api.themoviedb.org/3/movie/popular?api_key=c8e1ac8910c753600986ed6d71f88e29&language=en-US&page=1";
-    public String top_rated_url = "https://api.themoviedb.org/3/movie/top_rated?page=1&language=en-US&api_key=c8e1ac8910c753600986ed6d71f88e29";
+    public String popular_url = "https://api.themoviedb.org/3/movie/popular?api_key="+API_KEY+"&language=en-US&page=1";
+    public String top_rated_url = "https://api.themoviedb.org/3/movie/top_rated?page=1&language=en-US&api_key="+API_KEY;
     SharedPreferences setting;
 
     @Override
