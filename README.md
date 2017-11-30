@@ -8,7 +8,7 @@ App helps you to find top movies in box office, top rated, popular the data abou
 
 ## Screen Shot
 
-![](https://github.com/emadabdalrahman/Movie_app_v2/blob/master/ScreenShots/thumbnail_original.png?raw=true)
+![](https://github.com/emadabdalrahman/Movie_app_v1/blob/master/ScreenShots/thumbnail_original.jpg?raw=true)
 
 ## Third Party Libraries
 
